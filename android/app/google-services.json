@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "952026399150",
+    "firebase_url": "https://expiry-date-reminder.firebaseio.com",
+    "project_id": "expiry-date-reminder",
+    "storage_bucket": "expiry-date-reminder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952026399150:android:fd2c26e0f0eb3d898a083f",
+        "android_client_info": {
+          "package_name": "com.maulikkhandelwal.expiry_date_alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952026399150-q9feskvil63jbdvkadhl7u8g8c6q2tr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYsPAm8NvLJ3jDIRdhz7ZZdGKRfetk7Ws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952026399150-q9feskvil63jbdvkadhl7u8g8c6q2tr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
