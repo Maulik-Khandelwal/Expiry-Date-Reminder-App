@@ -146,13 +146,6 @@ class _ProductInfoState extends State<ProductInfo> {
                                     color: Colors.black54,
                                     fontWeight: FontWeight.w500),
                               ),
-                              // Text(
-                              //   "$date2  $diff",
-                              //   style: TextStyle(
-                              //       fontSize: 23,
-                              //       color: Colors.black54,
-                              //       fontWeight: FontWeight.w500),
-                              // ),
                               SizedBox(
                                 height: 60,
                               ),

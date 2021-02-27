@@ -79,7 +79,7 @@ class _HomeState extends State<Home> {
                             return Container(
                               child: Center(
                                 child: Text(
-                                  'no match',
+                                  "",
                                   style: TextStyle(fontSize: 4.0),
                                 ),
                               ),

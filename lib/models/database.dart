@@ -25,33 +25,14 @@ class DatabaseService {
     });
   }
 
-  // Future<void> addQuestionData(quizData, String quizId) async {
-  //   await Firestore.instance
-  //       .collection("Info")
-  //       .document(quizId)
-  //       .collection("QNA")
-  //       .add(quizData)
-  //       .catchError((e) {
-  //     print(e);
-  //   });
-  // }
-
   getProductData() async {
     return await Firestore.instance.collection("Info").snapshots();
   }
 
-  deleteProduct(String quizId) async {
+  deleteProduct(String productId) async {
     return await Firestore.instance
         .collection("Info")
-        .document(quizId)
+        .document(productId)
         .delete();
   }
-
-  // getQuestionData(String quizId) async {
-  //   return await Firestore.instance
-  //       .collection("Info")
-  //       .document(quizId)
-  //       .collection("QNA")
-  //       .getDocuments();
-  // }
 }
